@@ -1,5 +1,8 @@
 We have built an innovative, groundbreaking keyboard that looks like a keyboard but is actually a keyboard and not a keyboard.
 
+![1000067192](https://github.com/user-attachments/assets/458848ef-0a0e-447b-a98f-394459a75e68)
+
+
 **About**
 
 We always thought traditional keyboards are too boring. We also thought it was funny how electronic pianos and the tools we use to type share a name. So we decided to cross these two, and create this ultimate design! You can only type a choice of 7 letters at a time, as our keyboard only has one octave. This means to be able to type different keys, you have to cycle through the octaves using two dedicated keyswitches. Isn't it awesome?
@@ -24,7 +27,7 @@ We always thought traditional keyboards are too boring. We also thought it was f
 **Please note, the WAVs of piano notes provided are converted from MP3s available on a repository here on GitHub. In respect to the original license, this project has been shared with an MIT license as well. You can find the original repository here: https://github.com/fuhton/piano-mp3**
 
 
-**Instructions**
+
 
 
 
