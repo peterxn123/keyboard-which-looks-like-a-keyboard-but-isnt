@@ -5,7 +5,7 @@ We have built an innovative, groundbreaking keyboard that looks like a keyboard 
 
 **About**
 
-We always thought traditional keyboards are too boring. We also thought it was funny how electronic pianos and the tools we use to type share a name. So we decided to cross these two, and create this ultimate design! You can only type a choice of 7 letters at a time, as our keyboard only has one octave. This means to be able to type different keys, you have to cycle through the octaves using two dedicated keyswitches. Isn't it awesome?
+We always thought traditional keyboards are too boring. We also thought it was funny how electronic pianos and the tools we use to type share a name. So we decided to cross these two, and create this ultimate design! You can only type a choice of 7 letters at a time, as our keyboard only has one octave. Can you make do with only the keys provided to you by the original keyboard - the piano?
 
 **Bill of Materials**
 
