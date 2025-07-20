@@ -23,6 +23,45 @@ We always thought traditional keyboards are too boring. We also thought it was f
 - 1x MAX98357A speaker amplifier
 - 1x Micro SD card reader module
 
+The firmware was built using kmk and CircuitPython, with audiobusio and audiocore for the playback of WAVs on the connected speaker.
+
+Wiring:
+
+                 ┌────────────────────────────────────────────────┐
+                 │                Raspberry Pi Pico                │
+                 │                                                │
+                 │ GP0  ──┐ C key                                 │
+                 │ GP1  ──┤ D key                                 │
+                 │ GP2  ──┤ E key                                 │
+                 │ GP3  ──┤ F key                                 │
+                 │ GP4  ──┤ G key                                 │
+                 │ GP5  ──┤ A key                                 │
+                 │ GP6  ──┤ B key                                 │
+                 │ GP7  ──┤ Db key                                │
+                 │ GP8  ──┤ Eb key                                │
+                 │ GP9  ──┤ Gb key                                │
+                 │ GP10 ──┤ Ab key                                │
+                 │ GP11 ──┤ Bb key                                │
+                 │ GP12 ──┤ Octave Down button                    │
+                 │ GP13 ──┤ Octave Up button                      │
+                 │                                                │
+                 │ GP20 ──► I2S DIN  (MAX98357A)                  │
+                 │ GP21 ──► I2S BCLK (MAX98357A)                  │
+                 │ GP22 ──► I2S LRC  (MAX98357A)                  │
+                 │ GP26 ──► AMP SD (enable HIGH)                  │
+                 │ 3V3  ──► AMP VIN, AMP GAIN (for max vol)       │
+                 │ GND  ──┴─► AMP GND                              │
+                 │                                                │
+                 │ GP16 ◄── SD MISO                               │
+                 │ GP17 ─── SD CS                                 │
+                 │ GP18 ─── SD SCK                                │
+                 │ GP19 ─── SD MOSI                               │
+                 │ 3V3  ─── SD VCC                                │
+                 │ GND  ─── SD GND                                │
+                 └────────────────────────────────────────────────┘
+
+ All key switch *other legs* (GND legs on the cherry MX switches) → shared GND rail → Pico GND.
+
 
 **Please note, the WAVs of piano notes provided are converted from MP3s available on a repository here on GitHub. In respect to the original license, this project has been shared with an MIT license as well. You can find the original repository here: https://github.com/fuhton/piano-mp3**
 
