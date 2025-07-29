@@ -1,3 +1,5 @@
+Youtube demo: https://youtube.com/shorts/1oemrpsrQag?si=syYRnnjexHgY6y_N
+
 We have built an innovative, groundbreaking keyboard that looks like a keyboard but is actually a keyboard and not a keyboard.
 
 ![1000067192](https://github.com/user-attachments/assets/458848ef-0a0e-447b-a98f-394459a75e68)
